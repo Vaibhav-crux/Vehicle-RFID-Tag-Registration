@@ -1,3 +1,76 @@
+# RFID Tag Management Software
+
+## Overview
+
+This software is designed to streamline the registration and verification process of RFID tags, providing a user-friendly interface for managing vehicle information. The tool is developed using Python and PyQt, with database operations integrated using an Object-Relational Mapping (ORM). The implementation also utilizes Google Cloud Platform (GCP) resources, including Compute Engine, Identity and Access Management (IAM), API & Services, and Container Registry.
+
+## Features
+
+### 1. Login
+
+The software includes a secure login system to ensure authorized access to the RFID tag management system.
+
+### 2. Vehicle Registration
+
+- **Automatic Data Fetch:** When an RFID number is entered, the system automatically retrieves existing data from the database.
+- **Field Population:** Data is seamlessly entered into the respective fields for efficient registration.
+
+### 3. Register Vehicle
+
+The tool facilitates the registration of vehicles with ease. Users can input relevant information, and the system ensures a smooth registration process.
+
+### 4. Light and Dark Themes
+
+The software offers both light and dark themes to cater to user preferences. Users can switch between themes for a personalized experience.
+
+## Technologies Used
+
+- **Python:** The core programming language for development.
+- **PyQt:** Utilized for creating the graphical user interface (GUI).
+- **ORM (Object-Relational Mapping):** Integrated for efficient database operations.
+- **Google Cloud Platform (GCP):** Leveraged GCP resources, including Compute Engine, IAM, API & Services, and Container Registry.
+
+## How to Run
+
+To run the RFID Tag Management Software, follow these steps:
+
+1. Clone the repository to your local machine.
+   ```bash
+   git clone https://github.com/your_username/rfid-tag-management.git
+   ```
+
+2. Install the required dependencies.
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the application.
+   ```bash
+   python main.py
+   ```
+
+4. Access the software through your web browser at http://localhost:8000.
+
+## Screenshots
+
+### Light Theme
+![Light Theme](screenshots/light_theme.png)
+
+### Dark Theme
+![Dark Theme](screenshots/dark_theme.png)
+
+## Contributors
+
+- [Your Name](https://github.com/your_username)
+- [Contributor 1](https://github.com/contributor1)
+- [Contributor 2](https://github.com/contributor2)
+
+## License
+
+This software is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+
+
 # Login
 ![Screenshot 2024-02-10 160349](https://github.com/Vaibhav-crux/driver/assets/122672330/9ada2743-2255-47e8-9749-5da17ebae274)
 # Registration
