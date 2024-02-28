@@ -49,8 +49,6 @@ To run the RFID Tag Management Software, follow these steps:
    python main.py
    ```
 
-4. Access the software through your web browser at http://localhost:8000.
-
 ## Screenshots
 
 ### Dark Theme
