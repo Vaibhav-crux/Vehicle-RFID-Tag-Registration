@@ -37,7 +37,7 @@ data_to_insert = [
 
 """
 
-# Insert the data into the vehicle_master table
+# Insert the data into the vehicle_master table automatically
 for data in data_to_insert:
     vehicle = DoNumber(**data)
     session.add(vehicle)
