@@ -6,6 +6,7 @@ from functions.read_from_file import read_rfid_from_file
 from functions.fetch_do_no import fetch_do_numbers
 from functions.fetch_wb import fetch_wb_code
 
+#started point
 class MyWidget(QWidget):
     def __init__(self):
         super().__init__()
