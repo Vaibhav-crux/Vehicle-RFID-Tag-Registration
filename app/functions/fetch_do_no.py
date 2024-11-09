@@ -3,7 +3,7 @@ from db.models import DoNumber
 from sqlalchemy import create_engine
 
 def fetch_do_numbers():
-    # Fetch DO Numbers from the DoNumber table
+    # Fetch DO Numbers from the DoNumber tables
 
     engine = create_engine('sqlite:///example.db')
     Session = sessionmaker(bind=engine)
